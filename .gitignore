@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build outputs and caches
+/dist/
+/build/
+/coverage/
+.next/
+.nuxt/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tsbuildinfo
+
+# Local secrets (keep example templates)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
